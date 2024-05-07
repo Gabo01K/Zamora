@@ -1,0 +1,28 @@
+#menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#menu #item{
+	float: left;
+}
+#menu #item a{
+	background: #28B463;
+	color: rgba(255,255,255,1);
+	padding: 12px 24px;
+	display: block;
+	font-family: Comic Sans;
+	font-size: 24px;
+	text-decoration: none;
+}
+#menu #desplegar{
+	display: none;
+}
+#menu #item a:hover{
+	background: rgba(155, 89, 182 );
+
+}
+#menu #item:hover #desplegar{
+	display: block;
+}
